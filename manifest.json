@@ -1,0 +1,13 @@
+{
+  "name":            "Right Link",
+  "version":         "1.0",
+  "description":     "Right click for open link in new background tab (for touchpads etc.)",
+  "permissions":     ["tabs"],
+  "background_page": "background_page/controller.html",
+  "options_page":    "options_page/options.html",
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*", "ftp://*/*", "file://*/*"],
+    "js":      ["lib/jquery-1.3.2.min.js", "content_script/rightlink_extension.js"]
+  }]
+}
+

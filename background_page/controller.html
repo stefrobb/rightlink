@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Background controller of RightLink extension</title>
+
+    <script type="text/javascript" src="communicator.js"></script>
+    <script type="text/javascript" src="actions.js"></script>
+    <script type="text/javascript">
+      communicator.connectToContentScript();
+      communicator.observeForRightClickedLink(openLinkInNewTab);
+    </script>
+  </head>
+</html>
+
