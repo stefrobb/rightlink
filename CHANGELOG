@@ -1,0 +1,6 @@
+== RightLink 1.1 (2009-10-31)
+  + Handle links that have been added to document dynamically (via AJAX or
+    something similar) after loading whole page.
+
+== RightLink 1.0 (2009-10-23)
+  * Initial release.
