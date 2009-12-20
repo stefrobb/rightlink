@@ -1,3 +1,6 @@
+== RightLink 1.3 (2009-12-20)
+  ! Bind right click event handler only once for page (i.e. Document object).
+
 == RightLink 1.2 (2009-12-09)
   ! Handle links in all frames of page.
 
